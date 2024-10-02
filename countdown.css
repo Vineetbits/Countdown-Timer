@@ -1,0 +1,53 @@
+/* Basic styling for the entire page */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+}
+
+/* Container for the countdown */
+.countdown-container {
+    background-color: #2c3e50;
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Timer text styling */
+.countdown-timer {
+    font-size: 3em;
+    color: #ecf0f1;
+    margin-bottom: 10px;
+}
+
+/* Label styling */
+.countdown-label {
+    font-size: 1.5em;
+    color: #bdc3c7;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .countdown-timer {
+        font-size: 2em;
+    }
+    .countdown-label {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 480px) {
+    .countdown-timer {
+        font-size: 1.5em;
+    }
+    .countdown-label {
+        font-size: 1em;
+    }
+}
